@@ -31,5 +31,5 @@ Later development
 - [Seamless M4T: Massively Multilingual & Multimodal Machine Translation](https://arxiv.org/abs/2308.11596)
 
 ### Whisper
-- [Robust Speech Recognition via Large-Scale Weak Supervision (Redford 2022)](https://arxiv.org/abs/2212.04356)
+- [Robust Speech Recognition via Large-Scale Weak Supervision (Redford, 2022)](https://arxiv.org/abs/2212.04356)
 
