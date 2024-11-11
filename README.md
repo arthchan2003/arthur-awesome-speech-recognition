@@ -33,3 +33,5 @@ Later development
 ### Whisper
 - [Robust Speech Recognition via Large-Scale Weak Supervision (Redford, 2022)](https://arxiv.org/abs/2212.04356)
 
+### AI-related groups I admin (and browse daily)
+- Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/). 
