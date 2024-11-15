@@ -1,5 +1,7 @@
 # arthur-awesome-speech-recognition
 
+(Work in Progress)
+
 Here is a collection of my own reading in speech recognition and related topics.
 
 ## Speech Recognizers
@@ -32,6 +34,10 @@ Later development
 
 ### Whisper
 - [Robust Speech Recognition via Large-Scale Weak Supervision (Redford, 2022)](https://arxiv.org/abs/2212.04356)
+
+## Speech Datasets
+- [Open SLR](https://www.openslr.org/resources.php) Collections of free speech dataset.
+- [LDC](https://catalog.ldc.upenn.edu/) OG of language resources. Fees for non-members can be hefty. 
 
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/). 
