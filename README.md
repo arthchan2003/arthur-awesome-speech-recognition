@@ -36,8 +36,15 @@ Later development
 - [Robust Speech Recognition via Large-Scale Weak Supervision (Redford, 2022)](https://arxiv.org/abs/2212.04356)
 
 ## Speech Datasets
+
+### Some general websites
 - [Open SLR](https://www.openslr.org/resources.php) Collections of free speech dataset.
-- [LDC](https://catalog.ldc.upenn.edu/) OG of language resources. Fees for non-members can be hefty. 
+- [LDC](https://catalog.ldc.upenn.edu/) OG of language resources. Fees for non-members can be hefty.
+
+### Individual Datasets
+- [Librispeech](https://www.openslr.org/12) One of the golden benchmarks in ASR.  ([Paper](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf))
+- [Libri-Light](https://github.com/facebookresearch/libri-light) In a sense, it is the extension of Librispeech but with 60k hour of unlabelled data. wav2vec2's models prefixed with -Lv60 are speech representation, for example, are all pre-trained with this dataset. ([Paper](https://arxiv.org/abs/1912.07875))
+- [Multilingual LibriSpeech (MLS)](https://www.openslr.org/) A multilingual version of libri-light.  It's still heavily tilted towards English, but it also contains significant amount of German, Spanish and 6 other languages. ([Paper](https://arxiv.org/pdf/2012.03411))
 
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/). 
