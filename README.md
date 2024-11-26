@@ -33,7 +33,13 @@ Later development
 - [Seamless M4T: Massively Multilingual & Multimodal Machine Translation](https://arxiv.org/abs/2308.11596)
 
 ### Whisper
+
+The original paper
 - [Robust Speech Recognition via Large-Scale Weak Supervision (Redford, 2022)](https://arxiv.org/abs/2212.04356)
+
+Open Whisper-style Speech Model (OWSM)
+- [Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data (Peng, 2023)](https://arxiv.org/abs/2309.13876) - An impressive effort from CMU WavLab to replicate Whisper enc-dec style training.
+- [OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer (Peng, 2024)](https://arxiv.org/abs/2401.16658)
 
 ## Speech Datasets
 
@@ -42,9 +48,13 @@ Later development
 - [LDC](https://catalog.ldc.upenn.edu/) OG of language resources. Fees for non-members can be hefty.
 
 ### Individual Datasets
+
+English
+
 - [Librispeech](https://www.openslr.org/12) One of the golden benchmarks in ASR.  ([Paper](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf))
 - [Libri-Light](https://github.com/facebookresearch/libri-light) In a sense, it is the extension of Librispeech but with 60k hour of unlabelled data. wav2vec2's models prefixed with -Lv60 are speech representation, for example, are all pre-trained with this dataset. ([Paper](https://arxiv.org/abs/1912.07875))
 - [Multilingual LibriSpeech (MLS)](https://www.openslr.org/) A multilingual version of libri-light.  It's still heavily tilted towards English, but it also contains significant amount of German, Spanish and 6 other languages. ([Paper](https://arxiv.org/pdf/2012.03411))
+- [Common Voice](https://commonvoice.mozilla.org/en/datasets) A multilingual dataset.  When you test on CV, remember that there are multiple versions of the dataset.  On HuggingFace, also know that some of these databases are gated. (i.e. required login) 
 
 ### AI-related groups I admin (and browse daily)
-- Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/). 
+- Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/).
