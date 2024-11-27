@@ -70,5 +70,14 @@ Cantonese
 - CommonVoice and MLS both have subsets on Cantonese
 - [MDCC Dataset](https://github.com/HLTCHKUST/cantonese-asr) (The [Paper](https://arxiv.org/pdf/2201.02419.pdf) is also a survey on different Cantonese dataset.)
 
+### Conferences 
+- [ICSA Archive](https://www.isca-archive.org/index.html) If you want to search for all Interspeech conference papers. (Or Eurospeech/ICSLP if you still remember them...)
+- [ICASSP](https://dblp.org/db/conf/icassp/index.html) Another OG yearly conference on speech.  Sad. Not all the paper are archived. So you may need to try your luck to see if the authors put them on archive.
+
+The two are specific to speech.  These days peeps love to publish on AAAI and NeurIPS.  You know where to find them already. 
+
+### Journals
+- [IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655) It used to be called IEEE Transactions on Audio, Speech, Processing, or "ASP" in short.  Now it's called "ASLP" I guess.
+
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/).
