@@ -47,14 +47,28 @@ Open Whisper-style Speech Model (OWSM)
 - [Open SLR](https://www.openslr.org/resources.php) Collections of free speech dataset.
 - [LDC](https://catalog.ldc.upenn.edu/) OG of language resources. Fees for non-members can be hefty.
 
-### Individual Datasets
+### Individual Datasets grouped by languages
 
-English
+Multilingual
+
+- [Babel](https://en.wikipedia.org/wiki/BABEL_Speech_Corpus) (Where is it now?)
+- [Voxpopuli](https://github.com/facebookresearch/voxpopuli) Collected from 2009-2020 European Parliament event recordings. >400k hours of data. ([Paper](https://aclanthology.org/2021.acl-long.80/))
+- [Multilingual LibriSpeech (MLS)](https://www.openslr.org/) A multilingual version of libri-light.  It's still heavily tilted towards English, but it also contains significant amount of German, Spanish and 6 other languages. ([Paper](https://arxiv.org/pdf/2012.03411))
+- [Common Voice](https://commonvoice.mozilla.org/en/datasets) A multilingual dataset.  When you test on CV, remember that there are multiple versions of the dataset.  On HuggingFace, also know that some of these databases are gated. (i.e. required login)
+
+English-only
 
 - [Librispeech](https://www.openslr.org/12) One of the golden benchmarks in ASR.  ([Paper](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf))
 - [Libri-Light](https://github.com/facebookresearch/libri-light) In a sense, it is the extension of Librispeech but with 60k hour of unlabelled data. wav2vec2's models prefixed with -Lv60 are speech representation, for example, are all pre-trained with this dataset. ([Paper](https://arxiv.org/abs/1912.07875))
-- [Multilingual LibriSpeech (MLS)](https://www.openslr.org/) A multilingual version of libri-light.  It's still heavily tilted towards English, but it also contains significant amount of German, Spanish and 6 other languages. ([Paper](https://arxiv.org/pdf/2012.03411))
-- [Common Voice](https://commonvoice.mozilla.org/en/datasets) A multilingual dataset.  When you test on CV, remember that there are multiple versions of the dataset.  On HuggingFace, also know that some of these databases are gated. (i.e. required login) 
+
+Portuguese
+
+- [CORAA](https://github.com/nilc-nlp/CORAA) 290.77 hours of spontaneous speech. ([Paper](https://arxiv.org/abs/2110.15731))
+- [The BP Dataset](https://github.com/lucasgris/wav2vec4bp) 400 hours. ([Paper](https://arxiv.org/abs/2107.11414))
+
+Cantonese
+- CommonVoice and MLS both have subsets on Cantonese
+- [MDCC Dataset](https://github.com/HLTCHKUST/cantonese-asr) (The [Paper](https://arxiv.org/pdf/2201.02419.pdf) is also a survey on different Cantonese dataset.)
 
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/).
