@@ -70,6 +70,9 @@ Cantonese
 - CommonVoice and MLS both have subsets on Cantonese
 - [MDCC Dataset](https://github.com/HLTCHKUST/cantonese-asr) (The [Paper](https://arxiv.org/pdf/2201.02419.pdf) is also a survey on different Cantonese dataset.)
 
+Other awesome lists:
+- [Jim Schwoebel's voice_datasets](https://github.com/jim-schwoebel/voice_datasets)
+
 ### Conferences 
 - [ICSA Archive](https://www.isca-archive.org/index.html) If you want to search for all Interspeech conference papers. (Or Eurospeech/ICSLP if you still remember them...)
 - [ICASSP](https://dblp.org/db/conf/icassp/index.html) Another OG yearly conference on speech.  Sad. Not all the paper are archived. So you may need to try your luck to see if the authors put them on archive.
