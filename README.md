@@ -62,7 +62,7 @@ English-only
 - [Libri-Light](https://github.com/facebookresearch/libri-light) In a sense, it is the extension of Librispeech but with 60k hour of unlabelled data. wav2vec2's models prefixed with -Lv60 are speech representation, for example, are all pre-trained with this dataset. ([Paper](https://arxiv.org/abs/1912.07875))
 
 Portuguese
-
+- [NURC-SP](https://github.com/nilc-nlp/nurc-sp-audio-corpus) 239.30 hours of audio from the NURC project ([Paper](https://arxiv.org/abs/2409.15350))  You may also find the information from [TaRSilla Project](https://sites.google.com/view/tarsila-c4ai/coraa-versions) and the original [NURC project](https://fale.ufal.br/projeto/nurcdigital/) useful
 - [CORAA](https://github.com/nilc-nlp/CORAA) 290.77 hours of spontaneous speech. ([Paper](https://arxiv.org/abs/2110.15731))
 - [The BP Dataset](https://github.com/lucasgris/wav2vec4bp) 400 hours. ([Paper](https://arxiv.org/abs/2107.11414))
 
@@ -72,6 +72,13 @@ Cantonese
 
 Other awesome lists:
 - [Jim Schwoebel's voice_datasets](https://github.com/jim-schwoebel/voice_datasets)
+- [From Paper With Code](https://paperswithcode.com/datasets?task=speech-recognition)
+- [From Metatext.io](https://metatext.io/datasets-list/speech-task)
+
+### Speech Database on different stacks.
+
+Hugging Face: (Note: You often need to hack the code to get it working.)
+- [Hugging Face AudioDataset](https://huggingface.co/blog/audio-datasets)
 
 ### Conferences 
 - [ICSA Archive](https://www.isca-archive.org/index.html) If you want to search for all Interspeech conference papers. (Or Eurospeech/ICSLP if you still remember them...)
