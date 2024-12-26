@@ -60,6 +60,9 @@ English-only
 
 - [Librispeech](https://www.openslr.org/12) One of the golden benchmarks in ASR.  ([Paper](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf))
 - [Libri-Light](https://github.com/facebookresearch/libri-light) In a sense, it is the extension of Librispeech but with 60k hour of unlabelled data. wav2vec2's models prefixed with -Lv60 are speech representation, for example, are all pre-trained with this dataset. ([Paper](https://arxiv.org/abs/1912.07875))
+- [LibriSpeech-PC](https://www.openslr.org/145/) LibriSpeech with punctuation and capitalization (PC) ([Paper](https://arxiv.org/abs/2310.02943))
+- [Libri-Heavy](https://github.com/k2-fsa/libriheavy) Labeled version of libri-light also annotated with punctuation and context([Paper](https://arxiv.org/pdf/2309.08105))  All segments are short (<20s).  The group also release a version with long durion called [libriheavy-long](https://huggingface.co/datasets/pkufool/libriheavy_long).
+
 
 Portuguese
 - [NURC-SP](https://github.com/nilc-nlp/nurc-sp-audio-corpus) 239.30 hours of audio from the NURC project ([Paper](https://arxiv.org/abs/2409.15350))  You may also find the information from [TaRSilla Project](https://sites.google.com/view/tarsila-c4ai/coraa-versions) and the original [NURC project](https://fale.ufal.br/projeto/nurcdigital/) useful
@@ -88,6 +91,17 @@ The two are specific to speech.  These days peeps love to publish on AAAI and Ne
 
 ### Journals
 - [IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655) It used to be called IEEE Transactions on Audio, Speech, Processing, or "ASP" in short.  Now it's called "ASLP" I guess.
+
+### Not ASR, but it's quite important to know these days
+
+Cool TTS links
+- [xTTSv1,v2](https://github.com/coqui-ai/TTS/blob/dev/docs/source/models/xtts.md), [alltalkv2](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file), [xTTSv2 fine-tuning guide](https://github.com/erew123/alltalk_tts/wiki/XTTS-Model-Finetuning-Guide-(Advanced-Version))
+- [E2 TTS](https://arxiv.org/abs/2406.18009), [F5 TTS](https://arxiv.org/abs/2410.06885)
+
+Important techniques (unsorted)
+- [Convnet](https://arxiv.org/pdf/2201.03545), [ConvneXT2](https://arxiv.org/pdf/2201.03545)
+- [ViT](https://arxiv.org/pdf/2010.11929)
+- [SoundStream](https://research.google/pubs/soundstream-an-end-to-end-neural-audio-codec/)
 
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/).
