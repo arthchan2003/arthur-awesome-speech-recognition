@@ -103,5 +103,13 @@ Important techniques (unsorted)
 - [ViT](https://arxiv.org/pdf/2010.11929)
 - [SoundStream](https://research.google/pubs/soundstream-an-end-to-end-neural-audio-codec/)
 
+Great Explainers
+- [MCMC without all the BS](https://www.jeremykun.com/2015/04/06/markov-chain-monte-carlo-without-all-the-bullshit/)
+- [A (Long) Peek into Reinforcement Learning by Lilian Weng](https://lilianweng.github.io/posts/2018-02-19-rl-overview/#key-concepts)
+- [Policy Gradient Algorithms](https://lilianweng.github.io/posts/2018-04-08-policy-gradient/)
+
+Reinforcement Leanring
+- [The Sutton Book](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/).
