@@ -111,5 +111,12 @@ Great Explainers
 Reinforcement Leanring
 - [The Sutton Book](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 
+## Language Datasets
+- Chinese - [中央研究院現代漢語標記語料庫](https://asbc.iis.sinica.edu.tw/)
+- Cantonese
+  - [Corpus of Chinese Written Language in Hong Kong](https://ccwlhk.eduhk.hk/)
+  - [Hong Kong Cantonese Corpus](https://github.com/fcbond/hkcancor)
+  - [Cantonese Language Association](https://cantoneselanguageassociation.byu.edu/links/)
+
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/).
