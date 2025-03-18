@@ -6,6 +6,13 @@ Here is a collection of my own reading in speech recognition and related topics.
 
 ## Speech Recognizers
 
+### Leaderboard to track:
+I often track -
+
+- [HuggingFace ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
+
+- [PaperWithCode](https://paperswithcode.com/dataset/librispeech)
+
 ### wav2vec2-related papers
 
 The five most important ones which everyeone should read -
@@ -32,6 +39,18 @@ Later development
 
 - [Seamless M4T: Massively Multilingual & Multimodal Machine Translation](https://arxiv.org/abs/2308.11596)
 
+Language model integration
+
+- [huggingsound](https://github.com/jonatasgrosman/huggingsound) One of the great works from Prof. Jonatas Grosman.
+
+- [Directly using the Wav2Vec2ProcessorWithLM class](https://huggingface.co/blog/wav2vec2-with-ngram) from Patrick Von Platen.
+- [Training KenLM](https://github.com/kpu/kenlm) You should also read [Kenneth Heafield's website](https://kheafield.com/code/kenlm/), it has a wealth of information.
+
+SFT
+
+Work in Progress.
+
+
 ### Whisper
 
 The original paper
@@ -40,6 +59,22 @@ The original paper
 Open Whisper-style Speech Model (OWSM)
 - [Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data (Peng, 2023)](https://arxiv.org/abs/2309.13876) - An impressive effort from CMU WavLab to replicate Whisper enc-dec style training.
 - [OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer (Peng, 2024)](https://arxiv.org/abs/2401.16658)
+
+Other Whisper-style models:
+- [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) [Page](https://funaudiollm.github.io/) support Mandarin, Cantonese, Japanese and Korean.
+
+Interesting Variants:
+- [CrisperWhisper](https://huggingface.co/nyrahealth/CrisperWhisper)
+- [Insanely Fast Whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
+- [Distill Whisper](https://huggingface.co/distil-whisper/distil-large-v3)
+
+## Nemo-related
+
+- [The model](https://huggingface.co/nvidia/canary-1b)
+
+## Phi-related)
+
+- [The post](https://techcommunity.microsoft.com/blog/aiplatformblog/introducing-phi-4-microsoft%E2%80%99s-newest-small-language-model-specializing-in-comple/4357090)
 
 ## Speech Datasets
 
@@ -73,6 +108,12 @@ Cantonese
 - CommonVoice and MLS both have subsets on Cantonese
 - [MDCC Dataset](https://github.com/HLTCHKUST/cantonese-asr) (The [Paper](https://arxiv.org/pdf/2201.02419.pdf) is also a survey on different Cantonese dataset.)
 
+Vietnamese
+- CommonVoice dataset contains a Vietnamese portion
+- [VIVOS](https://huggingface.co/datasets/AILAB-VNUHCM/vivos)
+- [FOSD - Vietnamese](https://data.mendeley.com/datasets/k9sxg2twv4/4)
+- [VLSP](https://vlsp.org.vn/vlsp2020/eval/asr)
+
 Other awesome lists:
 - [Jim Schwoebel's voice_datasets](https://github.com/jim-schwoebel/voice_datasets)
 - [From Paper With Code](https://paperswithcode.com/datasets?task=speech-recognition)
@@ -92,11 +133,13 @@ The two are specific to speech.  These days peeps love to publish on AAAI and Ne
 ### Journals
 - [IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655) It used to be called IEEE Transactions on Audio, Speech, Processing, or "ASP" in short.  Now it's called "ASLP" I guess.
 
-### Not ASR, but it's quite important to know these days
+### Not exactly, but they are super cool
 
 Cool TTS links
+- [HF TTS Arena](https://huggingface.co/blog/arena-tts)
 - [xTTSv1,v2](https://github.com/coqui-ai/TTS/blob/dev/docs/source/models/xtts.md), [alltalkv2](https://github.com/erew123/alltalk_tts/tree/alltalkbeta?tab=readme-ov-file), [xTTSv2 fine-tuning guide](https://github.com/erew123/alltalk_tts/wiki/XTTS-Model-Finetuning-Guide-(Advanced-Version))
 - [E2 TTS](https://arxiv.org/abs/2406.18009), [F5 TTS](https://arxiv.org/abs/2410.06885)
+- [CosyVoice v1, v2](https://github.com/FunAudioLLM/CosyVoice)
 
 Important techniques (unsorted)
 - [Convnet](https://arxiv.org/pdf/2201.03545), [ConvneXT2](https://arxiv.org/pdf/2201.03545)
@@ -107,6 +150,7 @@ Great Explainers
 - [MCMC without all the BS](https://www.jeremykun.com/2015/04/06/markov-chain-monte-carlo-without-all-the-bullshit/)
 - [A (Long) Peek into Reinforcement Learning by Lilian Weng](https://lilianweng.github.io/posts/2018-02-19-rl-overview/#key-concepts)
 - [Policy Gradient Algorithms](https://lilianweng.github.io/posts/2018-04-08-policy-gradient/)
+- [Flow Matching](https://mlg.eng.cam.ac.uk/blog/2024/01/20/flow-matching.html)
 
 Reinforcement Leanring
 - [The Sutton Book](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
