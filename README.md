@@ -17,7 +17,7 @@ I often track -
 
 ### wav2vec2-related papers
 
-The five most important ones which everyeone should read -
+The five most important ones which everyone should read -
 
 - [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations (Baevski et al., 2020)](https://arxiv.org/abs/2006.11477).
 
@@ -56,14 +56,14 @@ Work in Progress.
 ### Whisper
 
 The original paper
-- [Robust Speech Recognition via Large-Scale Weak Supervision (Redford, 2022)](https://arxiv.org/abs/2212.04356)
+- [Robust Speech Recognition via Large-Scale Weak Supervision (Radford, 2022)](https://arxiv.org/abs/2212.04356)
 
 Open Whisper-style Speech Model (OWSM)
 - [Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data (Peng, 2023)](https://arxiv.org/abs/2309.13876) - An impressive effort from CMU WavLab to replicate Whisper enc-dec style training.
 - [OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer (Peng, 2024)](https://arxiv.org/abs/2401.16658)
 
 Other Whisper-style models:
-- [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) [Page](https://funaudiollm.github.io/) support Mandarin, Cantonese, Japanese and Korean.
+- [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) [Page](https://funaudiollm.github.io/) supports Mandarin, Cantonese, Japanese and Korean.
 
 Interesting Variants:
 - [CrisperWhisper](https://huggingface.co/nyrahealth/CrisperWhisper)
@@ -75,15 +75,15 @@ Interesting Variants:
 
 - [The model](https://huggingface.co/nvidia/canary-1b)
 
-## Phi-related)
+## Phi-related
 
 - [This post](https://techcommunity.microsoft.com/blog/aiplatformblog/introducing-phi-4-microsoft%E2%80%99s-newest-small-language-model-specializing-in-comple/4357090)
 
 ## Common Architectures
 - [Grave's CTC paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf),[his thesis](https://www.cs.toronto.edu/~graves/phd.pdf) with better derivation. You may also want to look at this [explainer](https://distill.pub/2017/ctc/)
 - [Grave's RNNT paper](https://arxiv.org/pdf/1211.3711) - it's tough to explain the idea well though. 
-- AED - perhaps [LAS](https://arxiv.org/abs/1508.01211) but modern systems often [jointly train CTC and AED(https://arxiv.org/abs/1609.06773).
-- LALM - Many comes to mind. Perhaps [AudioPALM](https://arxiv.org/abs/2306.12925) comes to mind first.
+- AED - perhaps [LAS](https://arxiv.org/abs/1508.01211) but modern systems often [jointly train CTC and AED](https://arxiv.org/abs/1609.06773).
+- LALM - Many come to mind. Perhaps [AudioPALM](https://arxiv.org/abs/2306.12925) comes to mind first.
 - A great survey paper would be [End-to-End Speech Recognition: A Survey](https://arxiv.org/abs/2303.03329)
 
 ## Speech Datasets
@@ -99,15 +99,15 @@ Multilingual
 - [Babel](https://en.wikipedia.org/wiki/BABEL_Speech_Corpus) (Where is it now?)
 - [Voxpopuli](https://github.com/facebookresearch/voxpopuli) Collected from 2009-2020 European Parliament event recordings. >400k hours of data. ([Paper](https://aclanthology.org/2021.acl-long.80/))
 - [Multilingual LibriSpeech (MLS)](https://www.openslr.org/) A multilingual version of libri-light.  It's still heavily tilted towards English, but it also contains significant amount of German, Spanish and 6 other languages. ([Paper](https://arxiv.org/pdf/2012.03411))
-- [Common Voice](https://commonvoice.mozilla.org/en/datasets) A multilingual dataset.  When you test on CV, remember that there are multiple versions of the dataset.  On HuggingFace, also know that some of these databases are gated. (i.e. required login)
-- [FLEUR](https://huggingface.co/datasets/google/fleurs) Standard multilingual dataset for ASR and LID purpose. 
+- [Common Voice](https://commonvoice.mozilla.org/en/datasets) A multilingual dataset.  When you test on CV, remember that there are multiple versions of the dataset.  On HuggingFace, also know that some of these databases are gated. (i.e., requires login)
+- [FLEURS](https://huggingface.co/datasets/google/fleurs) Standard multilingual dataset for ASR and LID purpose. 
 
 English-only
 
 - [Librispeech](https://www.openslr.org/12) One of the golden benchmarks in ASR.  ([Paper](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf))
 - [Libri-Light](https://github.com/facebookresearch/libri-light) In a sense, it is the extension of Librispeech but with 60k hour of unlabelled data. wav2vec2's models prefixed with -Lv60 are speech representation, for example, are all pre-trained with this dataset. ([Paper](https://arxiv.org/abs/1912.07875))
 - [LibriSpeech-PC](https://www.openslr.org/145/) LibriSpeech with punctuation and capitalization (PC) ([Paper](https://arxiv.org/abs/2310.02943))
-- [Libri-Heavy](https://github.com/k2-fsa/libriheavy) Labeled version of libri-light also annotated with punctuation and context([Paper](https://arxiv.org/pdf/2309.08105))  All segments are short (<20s).  The group also release a version with long durion called [libriheavy-long](https://huggingface.co/datasets/pkufool/libriheavy_long).
+- [Libri-Heavy](https://github.com/k2-fsa/libriheavy) Labeled version of libri-light also annotated with punctuation and context([Paper](https://arxiv.org/pdf/2309.08105))  All segments are short (<20s).  The group also release a version with long duration called [libriheavy-long](https://huggingface.co/datasets/pkufool/libriheavy_long).
 
 
 Portuguese
@@ -136,8 +136,8 @@ Hugging Face: (Note: You often need to hack the code to get it working.)
 - [Hugging Face AudioDataset](https://huggingface.co/blog/audio-datasets)
 
 ### Conferences 
-- [ICSA Archive](https://www.isca-archive.org/index.html) If you want to search for all Interspeech conference papers. (Or Eurospeech/ICSLP if you still remember them...)
-- [ICASSP](https://dblp.org/db/conf/icassp/index.html) Another OG yearly conference on speech.  Sad. Not all the paper are archived. So you may need to try your luck to see if the authors put them on archive.
+- [ISCA Archive](https://www.isca-archive.org/index.html) If you want to search for all Interspeech conference papers. (Or Eurospeech/ICSLP if you still remember them...)
+- [ICASSP](https://dblp.org/db/conf/icassp/index.html) Another OG yearly conference on speech.  Sad. Not all the papers are archived. So you may need to try your luck to see if the authors put them on archive.
 
 The two are specific to speech.  These days peeps love to publish on AAAI and NeurIPS.  You know where to find them already. 
 
@@ -153,7 +153,7 @@ Cool TTS links
 - [CosyVoice v1, v2](https://github.com/FunAudioLLM/CosyVoice)
 
 Important techniques (unsorted)
-- [Convnet](https://arxiv.org/pdf/2201.03545), [ConvneXT2](https://arxiv.org/pdf/2201.03545)
+- [Convnet](https://arxiv.org/pdf/2201.03545), [ConvneXT2](https://arxiv.org/abs/2301.00808)
 - [ViT](https://arxiv.org/pdf/2010.11929)
 - [SoundStream](https://research.google/pubs/soundstream-an-end-to-end-neural-audio-codec/)
 
@@ -171,10 +171,10 @@ If you are never confused about the gradient derivation in our field, you probab
 
 - [Symbolic Matrix Differentiation Solver](https://www.matrixcalculus.org/)
 - [Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
-- [Matrix-based Approaches which Prof. Magnus gave a great expose.](https://www.amazon.com/Differential-Applications-Statistics-Econometrics-Probability/) You might also need the [reverse of vectoriztion](https://arxiv.org/abs/2308.07928) to get the Math right. 
+- [Matrix-based Approaches which Prof. Magnus gave a great expose.](https://www.amazon.com/Differential-Applications-Statistics-Econometrics-Probability/) You might also need the [reverse of vectorization](https://arxiv.org/abs/2308.07928) to get the Math right. 
 - [Robot Chinwag's Guide on Tensor Calculus](https://robotchinwag.com/posts/the-tensor-calculus-you-need-for-deep-learning/) If you feel the matrix-based approach is deeply dissatisfying...
 
-Reinforcement Leanring
+### Reinforcement Learning
 - [The Sutton Book](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 
 ## Language Datasets
@@ -185,8 +185,8 @@ Reinforcement Leanring
   - [Cantonese Language Association](https://cantoneselanguageassociation.byu.edu/links/)
 
 ## Large Language Model
-Of course, LLM deserves its own page. But here are some useful resources I want to note down here.
-(In progress)
+
+See [LLM.md](LLM.md).
 
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/).
