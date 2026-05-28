@@ -70,13 +70,21 @@ Interesting Variants:
 - [Insanely Fast Whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
 - [Distill Whisper](https://huggingface.co/distil-whisper/distil-large-v3)
 
+
 ## Nemo-related
 
 - [The model](https://huggingface.co/nvidia/canary-1b)
 
 ## Phi-related)
 
-- [The post](https://techcommunity.microsoft.com/blog/aiplatformblog/introducing-phi-4-microsoft%E2%80%99s-newest-small-language-model-specializing-in-comple/4357090)
+- [This post](https://techcommunity.microsoft.com/blog/aiplatformblog/introducing-phi-4-microsoft%E2%80%99s-newest-small-language-model-specializing-in-comple/4357090)
+
+## Common Architectures
+- [Grave's CTC paper](https://www.cs.toronto.edu/~graves/icml_2006.pdf),[his thesis](https://www.cs.toronto.edu/~graves/phd.pdf) with better derivation. You may also want to look at this [explainer](https://distill.pub/2017/ctc/)
+- [Grave's RNNT paper](https://arxiv.org/pdf/1211.3711) - it's tough to explain the idea well though. 
+- AED - perhaps [LAS](https://arxiv.org/abs/1508.01211) but modern systems often [jointly train CTC and AED(https://arxiv.org/abs/1609.06773).
+- LALM - Many comes to mind. Perhaps [AudioPALM](https://arxiv.org/abs/2306.12925) comes to mind first.
+- A great survey paper would be [End-to-End Speech Recognition: A Survey](https://arxiv.org/abs/2303.03329)
 
 ## Speech Datasets
 
@@ -92,6 +100,7 @@ Multilingual
 - [Voxpopuli](https://github.com/facebookresearch/voxpopuli) Collected from 2009-2020 European Parliament event recordings. >400k hours of data. ([Paper](https://aclanthology.org/2021.acl-long.80/))
 - [Multilingual LibriSpeech (MLS)](https://www.openslr.org/) A multilingual version of libri-light.  It's still heavily tilted towards English, but it also contains significant amount of German, Spanish and 6 other languages. ([Paper](https://arxiv.org/pdf/2012.03411))
 - [Common Voice](https://commonvoice.mozilla.org/en/datasets) A multilingual dataset.  When you test on CV, remember that there are multiple versions of the dataset.  On HuggingFace, also know that some of these databases are gated. (i.e. required login)
+- [FLEUR](https://huggingface.co/datasets/google/fleurs) Standard multilingual dataset for ASR and LID purpose. 
 
 English-only
 
@@ -153,6 +162,17 @@ Great Explainers
 - [A (Long) Peek into Reinforcement Learning by Lilian Weng](https://lilianweng.github.io/posts/2018-02-19-rl-overview/#key-concepts)
 - [Policy Gradient Algorithms](https://lilianweng.github.io/posts/2018-04-08-policy-gradient/)
 - [Flow Matching](https://mlg.eng.cam.ac.uk/blog/2024/01/20/flow-matching.html)
+- [Gumbel Softmax](https://sassafras13.github.io/GumbelSoftmax/)
+- [Optimal Transport by Alex Williams](https://alexhwilliams.info/itsneuronalblog/2020/10/09/optimal-transport/)
+- [CTC by Awni Hannun](https://distill.pub/2017/ctc/)
+
+Matrix Calculus
+If you are never confused about the gradient derivation in our field, you probably haven't looked deep enough into the math...
+
+- [Symbolic Matrix Differentiation Solver](https://www.matrixcalculus.org/)
+- [Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+- [Matrix-based Approaches which Prof. Magnus gave a great expose.](https://www.amazon.com/Differential-Applications-Statistics-Econometrics-Probability/) You might also need the [reverse of vectoriztion](https://arxiv.org/abs/2308.07928) to get the Math right. 
+- [Robot Chinwag's Guide on Tensor Calculus](https://robotchinwag.com/posts/the-tensor-calculus-you-need-for-deep-learning/) If you feel the matrix-based approach is deeply dissatisfying...
 
 Reinforcement Leanring
 - [The Sutton Book](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
@@ -163,6 +183,10 @@ Reinforcement Leanring
   - [Corpus of Chinese Written Language in Hong Kong](https://ccwlhk.eduhk.hk/)
   - [Hong Kong Cantonese Corpus](https://github.com/fcbond/hkcancor)
   - [Cantonese Language Association](https://cantoneselanguageassociation.byu.edu/links/)
+
+## Large Language Model
+Of course, LLM deserves its own page. But here are some useful resources I want to note down here.
+(In progress)
 
 ### AI-related groups I admin (and browse daily)
 - Plug - I admin AIDL [Facebook](https://www.facebook.com/groups/DeepNetGroup) and [LinkedIn](https://www.linkedin.com/groups/12846050/).
